@@ -9,15 +9,26 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
   <title>Quote Generator</title>
 </head>
 
 <body>
-  <h1>Simple Quote Generator</h1>
-  <div id="quoteDisplay">
-    <!-- Quotes will display here -->
-  </div>
-  <button onclick="newQuote()">New Quote</button>
+  <section class="top-section" id="title">
+    <div class="container-fluid">
+      <div class="quotes-box">
+        <h1 class="big-heading">Brain Tracy Quotes to Live By!</h1>
+        <div id="quoteDisplay">
+          <!-- Quotes will display here -->
+        </div>
+        <button class="btn btn-light" onclick="newQuote()">I need some inspiration!</button>
+      </div>
+
+    </div>
+  </section>
+
+
 
   <!-- Main JavaScript -->
     <script src="javascript.js"></script>
